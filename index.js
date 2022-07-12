@@ -5,7 +5,7 @@ let p1 = document.querySelector("#prdc1b"),
   p4 = document.querySelector("#prdc4b");
 
 // cart table
-let cart = document.querySelector("#tbl");
+let cart = document.querySelector("#tbl tbody");
 
 // events
 p1.addEventListener("click", add_product);
